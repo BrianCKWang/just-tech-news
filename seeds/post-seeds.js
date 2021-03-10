@@ -28,6 +28,6 @@ const PostData = [
   },
 ];
 
-const seedProducts = () => Post.bulkCreate(PostData);
+const seedPosts = () => Post.bulkCreate(PostData);
 
-module.exports = seedProducts;
+module.exports = seedPosts;

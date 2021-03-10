@@ -2,32 +2,32 @@ const { User } = require('../models');
 
 const PostData = [
   {
-    title: 'Test 1',
-    post_url: 'https://handlebarsjs.com/guide/1',
-    user_id: 1
+    username: "brianckwang 1",
+    email: "brian.ck.wang.1@gmail.com",
+    password: "password"
   },
   {
-    title: 'Test 2',
-    post_url: 'https://handlebarsjs.com/guide/2',
-    user_id: 2
+    username: 'brianckwang  2',
+    email: 'brian.ck.wang.2@gmail.com',
+    password: "password"
   },
   {
-    title: 'Test 3',
-    post_url: 'https://handlebarsjs.com/guide/3',
-    user_id: 3
+    username: 'brianckwang  3',
+    email: 'brian.ck.wang.3@gmail.com',
+    password: "password"
   },
   {
-    title: 'Test 4',
-    post_url: 'https://handlebarsjs.com/guide/4',
-    user_id: 4
+    username: 'brianckwang  4',
+    email: 'brian.ck.wang.4@gmail.com',
+    password: "password"
   },
   {
-    title: 'Test 5',
-    post_url: 'https://handlebarsjs.com/guide/5',
-    user_id: 5
+    username: 'brianckwang  5',
+    email: 'brian.ck.wang.5@gmail.com',
+    password: "password"
   },
 ];
 
-const seedProducts = () => Post.bulkCreate(PostData);
+const seedUsers = () => User.bulkCreate(PostData);
 
-module.exports = seedProducts;
+module.exports = seedUsers;
