@@ -26,6 +26,11 @@ const PostData = [
     email: 'brian.ck.wang.5@gmail.com',
     password: "password"
   },
+  {
+    username: 'what',
+    email: 'what@gmail.com',
+    password: "password"
+  }
 ];
 
 const seedUsers = () => User.bulkCreate(PostData);
